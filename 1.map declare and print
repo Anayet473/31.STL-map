@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+map<string,int>id;
+id["atika"]=07;
+id["anayet"]=13;
+cout<<id["atika"]<<"\n";
+cout<<id["anayet"]<<"\n";
+
+return 0;
+}
