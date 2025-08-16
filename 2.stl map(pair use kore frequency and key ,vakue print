@@ -1,0 +1,13 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    vector<int>v={1,1,2,3,3};
+    map<int,int>p;
+   for(auto u:v){
+    p[u]++;
+   }
+   for(auto u:p){
+    cout<<u.first<<" "<<u.second<<"\n";
+   }
+return 0;
+}
