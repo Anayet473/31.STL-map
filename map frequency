@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+vector<long long>v={1,2333333333,433333333,433333333};
+map<long long,int>m;
+for(int i=0;i<v.size();i++){
+    m[v[i]]++;
+}
+ cout<<m[433333333];
+return 0;
+}
