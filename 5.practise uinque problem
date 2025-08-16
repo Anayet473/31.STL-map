@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+vector<int>v={1,2,1,2,3,4};
+map<int,bool>mp;
+for(auto u:v){
+    mp[u]=1;
+}
+
+for(auto u:mp){
+    cout<<u.first<<" "<<u.second<<"\n";
+}
+
+
+
+return 0;
+}
